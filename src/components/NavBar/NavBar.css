@@ -1,12 +1,15 @@
 header {
     display: flex;
-    align-items: center;
+    align-items: flex-center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(154, 168, 73);
+    background-image: linear-gradient(to right, #030303, #464a46)
 }
 
 li {
     display: inline-block;
     margin: 1rem;
     cursor: pointer;
+    font-size: x-large;
+    color: rgb(91, 114, 75)
 }

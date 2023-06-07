@@ -10,6 +10,7 @@ const NavBar = () => {
                 <li>Novelas</li>
                 <li>Cuentos</li>
                 <li>Poesía</li>
+                <li>Arte</li>
             </ul>
         </nav>
 

@@ -1,7 +1,7 @@
 import "./CartWidget.css";
 
 const CartWidget = () => {
-  const pngCarrito = "https://png.pngtree.com/element_our/20200702/ourlarge/pngtree-cart-shopping-cart-icon-png-free-illustration-image_2284387.jpg";
+  const pngCarrito = "https://cdn5.vectorstock.com/i/1000x1000/93/04/shopping-cart-icon-on-black-background-black-flat-vector-26849304.jpg";
   return (
     <div>
         <img className="carrito" src={pngCarrito} alt="Carrito" />

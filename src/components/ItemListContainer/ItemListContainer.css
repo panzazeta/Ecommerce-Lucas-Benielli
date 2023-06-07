@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
 h2 {
-    color: rgb(135, 147, 42)
+    color: rgb(69, 81, 170);
+    font-family: 'Mate', serif;
+    padding-left: 10px;
 }

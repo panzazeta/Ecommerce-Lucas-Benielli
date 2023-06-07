@@ -4,7 +4,7 @@ import CartWidget from "../CartWidget/CartWidget"
 const NavBar = () => {
   return (
     <header>
-        <h1>Librería Online</h1>
+        <h1>Carver Libros</h1>
         <nav>
             <ul>
                 <li>Novelas</li>

@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
 header {
     display: flex;
-    align-items: flex-center;
     justify-content: space-between;
     border-bottom: 2px solid rgb(154, 168, 73);
-    background-image: linear-gradient(to right, #030303, #464a46)
+    background-image: linear-gradient(to right, #23291d, #000000);
+    font-family: 'Mate', serif;
+    color:rgb(128, 200, 51);
+}
+
+h1 {
+    margin-left: 20px
 }
 
 li {
     display: inline-block;
     margin: 1rem;
     cursor: pointer;
-    font-size: x-large;
-    color: rgb(91, 114, 75)
+    font-size: 22px;
+    color: rgb(107, 122, 4);
+    font-family: 'Mate', serif;
 }

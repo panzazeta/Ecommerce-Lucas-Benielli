@@ -6,18 +6,24 @@ header {
     border-bottom: 2px solid rgb(154, 168, 73);
     background-image: linear-gradient(to right, #23291d, #000000);
     font-family: 'Mate', serif;
-    color:rgb(128, 200, 51);
+    color:rgb(83, 108, 14);
 }
 
 h1 {
-    margin-left: 20px
+    margin-left: 20px;
+    background-color: transparent;
+    border: 1px solid #1c280f;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    
 }
 
 li {
     display: inline-block;
-    margin: 1rem;
+    margin: 2rem;
+    margin-top: 30px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 24px;
     color: rgb(107, 122, 4);
     font-family: 'Mate', serif;
 }

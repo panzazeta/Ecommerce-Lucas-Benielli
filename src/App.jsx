@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
     <NavBar />
-    <ItemListContainer saludo = {"Bienvenidos"} />
+    <ItemListContainer />
     <ItemCount stock={10} inicial={1} />
     </div>
   );

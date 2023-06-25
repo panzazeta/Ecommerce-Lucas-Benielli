@@ -38,3 +38,12 @@ export const getProductos = () => {
     }, 2000);
   });
 };
+
+export const getUnProducto = (id) => {
+  return new Promise((res) => {
+    setTimeout(() => {
+      const producto = productos.find(prod => prod.id === id);
+      res(producto);
+    },2000)
+  })
+}

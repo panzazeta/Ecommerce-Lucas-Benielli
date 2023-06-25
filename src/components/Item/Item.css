@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
 
+.producto-container {
+    font-family: 'Mate', serif;
+    font-size: 1.1rem;
+    text-align: center;
+    border: 1.5px solid rgb(82, 79, 79);
+    padding: 10px;
+    width: 150px;
+  }
+
 .imgProducto {
     width: 150px;
     height: 230px;
-    object-fit: contain;
+    object-fit:contain;
 }
 
 h3 {
-    text-align: center;
-    font-family: 'Mate', serif;
-    width: 150px;
     height: 30px;
     margin-top: 5px;
 }
 
-p{
-    text-align: center;
-    font-size: 1rem;
-    font-family: 'Mate', serif;
+p {
+    margin: 5px;
 }
 
 .btnProducto {
@@ -25,7 +29,6 @@ p{
     color: white;
     font-size: 1.2rem;
     font-family: 'Mate', serif;
-    width: 150px;
     border-radius: 10px;
     cursor: pointer;
     display: flex;

@@ -2,9 +2,9 @@
 
 .producto-container {
     font-family: 'Mate', serif;
-    font-size: 1.1rem;
+    color: rgb(154, 152, 152);
+    font-size: 1rem;
     text-align: center;
-    border: 1.5px solid rgb(82, 79, 79);
     padding: 10px;
     width: 150px;
   }

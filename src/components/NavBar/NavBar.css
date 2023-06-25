@@ -4,9 +4,9 @@ header {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgb(154, 168, 73);
-    background-image: linear-gradient(to right, #23291d, #000000);
+    background-color: rgb(2, 2, 2);
     font-family: 'Mate', serif;
-    color:rgb(83, 108, 14);
+    color:rgb(167, 156, 156);
 }
 
 h1 {
@@ -14,16 +14,17 @@ h1 {
     background-color: transparent;
     border: 1px solid #1c280f;
     border-radius: 20px;
+    font-size: 30px;
     padding: 0.5em 1em;
-    
+    color:white;
 }
 
 li {
     display: inline-block;
-    margin: 2rem;
+    font-family: 'Mate', serif;
+    font-size: 24px;
+    color: white;
+    margin-right: 5rem;
     margin-top: 30px;
     cursor: pointer;
-    font-size: 24px;
-    color: rgb(107, 122, 4);
-    font-family: 'Mate', serif;
 }

@@ -1,5 +1,6 @@
 .contenedorProductos{
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     margin: 30px 0 20px 20px;
 }

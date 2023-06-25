@@ -1,13 +1,13 @@
-import React from 'react'
+import "./ItemDetail.css"
 
 const ItemDetail = ({id, nombre, precio, img}) => {
   return (
-    <div>
+    <div className="item-detail">
         <h3>Nombre: {nombre}</h3>
         <h3>Precio: ${precio}</h3>
         <h3>ID: {id}</h3>
-        <p>Género: ficción</p>
         <img src={img} alt={nombre} />
+        <p>Estado: en stock</p>
     </div>
   )
 }

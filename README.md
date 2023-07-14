@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Raymond Libros
+El proyecto consiste en un ecommerce de librería virtual, como parte del proyecto final del curso de React en Coderhouse. La aplicación permite explorar un catálogo breve de 4 categorías de libros (novelas, cuentos, poesía y arte) así como proceder con la compra de los títulos disponibles. A su vez, la orden de compra consiste en un formulario que el usuario completa y se le provee un Id de operación de compra finalizada, quedando sus datos alojados en Firebase.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tecnologías utilizadas
+-React
+-React Router
+-Firebase
+-JavaScript
 
-## Available Scripts
+## Funcionalidades
+-Navegación de un catálogo breve de libros de ficción, poesía y ensayos;
+-Añadir libros al carrito de compras;
+-Visualizar el contenido del carrito de compras, así como poder modificarlo;
+-Proceder con la compra de los productos elegidos a través de una orden de compra, mediante formulario.
 
-In the project directory, you can run:
+## Instalación
+ Sigue estos pasos para clonar y ejecutar el repositorio:
 
-### `npm start`
+1- Abre una terminal y navega hasta el directorio donde deseas clonar el repositorio. 
+   Ejecuta el siguiente comando para clonar el repositorio:
+   git clone <URL del repositorio>
+   Reemplaza <URL del repositorio> con la URL real del repositorio que deseas clonar.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2- Ingresa al directorio del proyecto clonado:
+   cd <nombre del directorio del proyecto>
+   Reemplaza <nombre del directorio del proyecto> con el nombre del directorio del proyecto clonado.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3- Instala las dependencias necesarias ejecutando el siguiente comando:
+   npm install
+   Una vez completada la instalación, inicia la aplicación en tu entorno de desarrollo local con el   siguiente comando: npm start
+   Esto abrirá tu aplicación en el navegador predeterminado.
 
-### `npm test`
+## Configuración de Firebase
+ Sigue estos pasos para configurar y utilizar Firebase en el proyecto:
+ 1- Crea una cuenta en Firebase y crea un nuevo proyecto.
+ 2- Crea un nuevo proyecto en Firebase Console haciendo clic en el botón "Agregar proyecto". Asigna un nombre y selecciona las opciones necesarias.
+ 3- Una vez creado el proyecto, haz clic en "Agregar aplicación" para agregar una nueva aplicación web a tu proyecto.
+ 4- En el directorio del proyecto, instala el paquete Firebase ejecutando el siguiente comando:
+    npm install firebase
+ 5- Ahora puedes utilizar los servicios de Firebase en tu proyecto de React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## Licencia
+ Este proyecto está licenciado bajo licencia MIT. Consulta el archivo Licence para obtener más información.

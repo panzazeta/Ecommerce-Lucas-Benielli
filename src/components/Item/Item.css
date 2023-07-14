@@ -34,4 +34,5 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: solid 1px rgb(154, 168, 73);
 }

@@ -21,7 +21,7 @@
 
   .agregar-button {
     font-family: 'Mate', serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(199, 194, 194);
     background-color: rgb(70, 70, 68);
     display: inline-block;
@@ -29,4 +29,5 @@
     margin: 10px;
     cursor: pointer;
     border-radius: 10px;
+    border: solid 1px rgb(154, 168, 73);
   }

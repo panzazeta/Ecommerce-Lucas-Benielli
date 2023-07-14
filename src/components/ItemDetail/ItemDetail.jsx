@@ -5,7 +5,7 @@ import { CartContext } from "../../context/CartContext"
 import "./ItemDetail.css" 
 
 
-const ItemDetail = ({id, nombre, precio, img, stock}) => {
+const ItemDetail = ({id, nombre, precio, img, stock, descripcion}) => {
   const [agregarCantidad, setAgregarCantidad] = useState(0);
 
   const {agregarProducto} = useContext (CartContext);
@@ -24,7 +24,7 @@ const ItemDetail = ({id, nombre, precio, img, stock}) => {
         <h3>Precio: ${precio}</h3>
         <h3>ID: {id}</h3>
         <img src={img} alt={nombre} />
-        <p>Estado: en stock</p>
+        <p>{descripcion}</p>
         {
           agregarCantidad > 0 ? (
             <div>

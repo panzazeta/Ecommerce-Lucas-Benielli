@@ -14,7 +14,8 @@ El proyecto consiste en un ecommerce de librería virtual, como parte del proyec
 -Proceder con la compra de los productos elegidos a través de una orden de compra, mediante formulario.
 
 ## Instalación
- Sigue estos pasos para clonar y ejecutar el repositorio:
+
+### Sigue estos pasos para clonar y ejecutar el repositorio:
 
 1- Abre una terminal y navega hasta el directorio donde deseas clonar el repositorio. 
    Ejecuta el siguiente comando para clonar el repositorio:
@@ -39,5 +40,5 @@ El proyecto consiste en un ecommerce de librería virtual, como parte del proyec
     npm install firebase
  5- Ahora puedes utilizar los servicios de Firebase en tu proyecto de React.
 
- ## Licencia
+ ### Licencia
  Este proyecto está licenciado bajo licencia MIT. Consulta el archivo Licence para obtener más información.

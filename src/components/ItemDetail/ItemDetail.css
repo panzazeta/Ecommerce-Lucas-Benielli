@@ -11,3 +11,22 @@
 img{
     padding-top: 10px;
 }
+
+.descripcion{
+    font-size:medium;
+    text-align: center; 
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+    max-width: 30%;
+}
+
+.link-button{
+    background-color: rgb(70, 66, 66);
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    max-width: 50%;
+    
+    border-radius: 50px;
+}

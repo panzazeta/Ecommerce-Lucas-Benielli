@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
 .contador{
     color:rgb(80, 125, 153);
     text-align: center;
 }
 
+.counter-button {
+    font-size: 1.2rem; 
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #dd5959;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .counter-value {
+    display: center;
+    padding-left: 50px;
+    font-size: 1.5rem; 
+    margin: 10px 0;
+  }
+
+  .agregar-button {
+    font-family: 'Mate', serif;
+    color: rgb(154, 152, 152);
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: solid;
+    cursor: pointer;
+  }

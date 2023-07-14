@@ -18,8 +18,8 @@ El proyecto consiste en un ecommerce de librería virtual, como parte del proyec
 
 1- Abre una terminal y navega hasta el directorio donde deseas clonar el repositorio. 
    Ejecuta el siguiente comando para clonar el repositorio:
-   git clone <URL del repositorio>
-   Reemplaza <URL del repositorio> con la URL real del repositorio que deseas clonar.
+   git clone en URL del repositorio
+   Reemplaza URL del repositorio con la URL real del repositorio que deseas clonar.
 
 2- Ingresa al directorio del proyecto clonado:
    cd <nombre del directorio del proyecto>

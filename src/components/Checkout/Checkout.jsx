@@ -36,7 +36,8 @@ const manejadorFormulario = (e) => {
         nombre,
         apellido,
         telefono,
-        email 
+        email,
+        fecha: new Date()
     };
 
     addDoc(collection (db, "ordenes"), orden)

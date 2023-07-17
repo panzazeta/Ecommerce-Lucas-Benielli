@@ -1,3 +1,6 @@
+## Acceso web:
+https://fantastic-scone-c13d39.netlify.app/
+
 # Raymond Libros
 El proyecto consiste en un ecommerce de librería virtual, como parte del proyecto final del curso de React en Coderhouse. La aplicación permite explorar un catálogo breve de 4 categorías de libros (novelas, cuentos, poesía y arte) así como proceder con la compra de los títulos disponibles. A su vez, la orden de compra consiste en un formulario que el usuario completa y se le provee un Id de operación de compra finalizada, quedando sus datos alojados en Firebase.
 

@@ -36,3 +36,7 @@ p {
     justify-content: center;
     border: solid 1px rgb(154, 168, 73);
 }
+
+.btnProducto:hover {
+    background-color:  rgba(154, 168, 73, 0.5);
+}

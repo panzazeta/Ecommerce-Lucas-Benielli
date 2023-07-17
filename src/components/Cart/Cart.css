@@ -29,7 +29,7 @@
   
   .cart-lista a {
     display: inline-block;
-    background-color: #a23535;
+    background-color: rgb(154, 168, 73);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -38,5 +38,5 @@
   }
   
   .cart-lista a:hover {
-    background-color:  rgb(154, 168, 73);
+    background-color: #a23535;
   }

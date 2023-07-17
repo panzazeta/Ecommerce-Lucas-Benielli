@@ -31,3 +31,7 @@ img{
     max-width: 50%;
     border-radius: 20px;
 }
+
+.link-button:hover {
+    background-color:  rgba(154, 168, 73, 0.5);
+}

@@ -31,3 +31,7 @@
     border-radius: 10px;
     border: solid 1px rgb(154, 168, 73);
   }
+
+  .agregar-button:hover {
+    background-color: #a23535;
+  }

@@ -95,7 +95,7 @@ const manejadorFormulario = (e) => {
         </form>
         {
             orderId && (
-            <strong> ¡Gracias por tu compra! Tu número de orden es {orderId} </strong>
+            <strong className="confirmacion"> ¡Gracias por tu compra! Tu código de orden es: {orderId} </strong>
             )
         }
 

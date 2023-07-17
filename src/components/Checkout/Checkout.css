@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     width: 30%;
-    padding: 30px 5px;
+    padding: 5px 5px;
     border: 1px solid rgb(154, 168, 73);
     border-radius: 5px;
     background-color: rgb(36, 35, 35)
@@ -35,4 +35,11 @@
   
   .checkout-button:hover {
     background-color: #a23535;
+  }
+
+  .confirmacion{
+    font-family: 'Mate', serif;
+    font-size: large;
+    margin-top: 30px;
+    color: rgb(154, 168, 73);
   }

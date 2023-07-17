@@ -20,7 +20,7 @@ img{
     max-width: 30%;
 }
 
-.link-button{
+.link-button, .link-button2{
     background-color: rgb(70, 66, 66);
     border: solid 1px rgb(154, 168, 73);
     font-size: 1.2rem;
@@ -34,4 +34,8 @@ img{
 
 .link-button:hover {
     background-color:  rgba(154, 168, 73, 0.5);
+}
+
+.link-button2:hover {
+    background-color:  rgba(194, 48, 48, 0.5);
 }
